@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Celebrity Friend Finder - Survey</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron">
+                <h1>
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
+                <hr>
+                <h2 class="display-3">Survey Questions</h2>
+                <form>
+                    <h4>Name (Required)</h4>
+                    <input type="text" id="name" class="form-control" required>
+
+                    <h4>Link to Photo Image (Required)</h4>
+                    <input type="text" id="photo" class="form-control" required>
+                    <hr>
+                    <h3>Please answer all the questions below:</h3>
+                    <br>
+                </form>
+                <h3>
+                    <strong>Question 1</strong>
+                </h3>
+                <h4>I like dogs?</h4>
+                <select class="chosen-select" id="q1">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3>
+                    <strong>Question 2</strong>
+                </h3>
+                <h4>I like buffets.</h4>
+                <select class="chosen-select" id="q2">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3>
+                    <strong>Question 3</strong>
+                </h3>
+                <h4>I like computers.</h4>
+                <select class="chosen-select" id="q3">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3>
+                    <strong>Question 4</strong>
+                </h3>
+                <h4>I hate cats.</h4>
+                <select class="chosen-select" id="q4">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3>
+                    <strong>Question 5</strong>
+                </h3>
+                <h4>I can shop for 8 hours straight.</h4>
+                <select class="chosen-select" id="q5">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3>
+                    <strong>Question 6</strong>
+                </h3>
+                <h4>I like going to concerts.</h4>
+                <select class="chosen-select" id="q6">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h3>
+                    <strong>Question 7</strong>
+                </h3>
+                <h4>JQuery makes me smile.</h4>
+                <select class="chosen-select" id="q7">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h3>
+                    <strong>Question 8</strong>
+                </h3>
+                <h4>I like to exercise.</h4>
+                <select class="chosen-select" id="q8">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h3>
+                    <strong>Question 9</strong>
+                </h3>
+                <h4>Kobe Bryant is a legend.</h4>
+                <select class="chosen-select" id="q9">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <h3>
+                    <strong>Question 10</strong>
+                </h3>
+                <h4>I love Disneyland.</h4>
+                <select class="chosen-select" id="q10">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+                <br>
+                <br>
+                <hr>
+                <br>
+                <!-- Submit Button -->
+                <div class="row">
+                    <div class="col-sm-2">
+                        <a class="btn btn-primary btn-lg btn-block" id="submit" href="?" role="button">Submit</a>
+                    </div>
+                    <div class="col-sm-2">
+                        <a class="viewPlayer btn btn-danger btn-lg" href="/" role="button">I don't want friends - Back to Home Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+
+    <!-- Modal to display closest Match -->
+    <div class="modal fade" id="largeShoes" tabindex="-1" role="dialog" aria-labelledby="modalLabelLarge" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title" id="modalLabelLarge">Your Closest Celebrity Friend</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <p id="friendName"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <img id="friendPhoto"></img>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div> -->
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+<script>
+    $('#submit').on('click', function () {
+        var incomplete = false
+        event.preventDefault()
+        var surveyScores = []
+        for (var i = 0; i < 10; i++) {
+            surveyScores.push($('#q' + (i + 1)).find(":selected").val())
+            if ($('#q' + (i + 1)).find(":selected").val() === '') {
+                incomplete = true
+            }
+        }
+        var formName = $("#name").val().trim()
+        var formPhoto = $("#photo").val().trim()
+
+        if (formName === '' || formPhoto === '') {
+            incomplete = true
+        }
+
+        if (incomplete) {
+            alert("Please fill out all fields")
+        }
+        else {
+            var friendObj = {
+                name: formName,
+                photo: formPhoto,
+                scores: surveyScores
+            }
+
+            //empty the form
+            $("#name").val("")
+            $("#photo").val("")
+            $(".chosen-select").val("")
+
+            // pass object back to server
+            $.post('/api/friends', friendObj).then(function (r) {
+                $("#friendName").text("")
+                $("#friendName").append("<h2>" + r.name + "</h2><hr>")
+                $("#friendPhoto").attr("src", r.photo)
+                $(".modal").modal('toggle')
+            })
+
+            $.get('/api/friends').then(function (r) {
+                res.send(r)
+            })
+        }
+    })
+</script>
+
+</html>
